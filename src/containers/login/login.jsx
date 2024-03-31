@@ -1,7 +1,7 @@
 import SarNet from '../../assets/SarNet.svg'; 
-import './home.css';
+import './login.css';
 
-export function Home() {
+export function Login() {
   return (
     <div className="container">
         <header className="header">
@@ -30,4 +30,4 @@ export function Home() {
     </div>
   );
 }
-export default Home;
+export default Login;
