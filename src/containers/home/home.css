@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body{
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F5F4F4;
+}
+
+.container .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container .header span{
+    padding-top: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container form .inputContainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container form .inputContainer label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+.container form .inputContainer input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    width: 520px;
+    height: 48px;
+
+    border: 1px solid #191681;
+    border-radius: 12px;
+
+    margin-bottom: 12px;
+}
+
+.container form a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color:blue;
+}
+
+.container form button{
+    width: 300px;
+    height: 48px;
+    background-color: #D9D9D9;
+    border-radius: 12px;
+    color: black;
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 19px;
+    margin-top: 16px;
+
+    border: none;
+}
